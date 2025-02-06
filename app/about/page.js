@@ -3,7 +3,7 @@ import React from 'react';
 const CustomLayout = () => {
   return (
     <>
-      <h2 className="text-4xl font-bold text-center font-poppins text-[#37B7C3] mt-[53px] mb-[-87px]">About Us</h2>
+      <h2 className="text-4xl font-bold text-center font-poppins text-[#0C71C3] mt-[53px] mb-[-87px]">About Us</h2>
       <div className="w-full bg-white">
         <div className="max-w-screen-xl mx-auto p-8 md:p-16 flex flex-col md:flex-row gap-8 items-center">
           {/* Left Column - Images */}
