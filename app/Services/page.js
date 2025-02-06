@@ -15,7 +15,7 @@ const images = [
   
 ];
 
-export default function ContentSection() {
+export default function Services() {
   useEffect(() => {
     AOS.init({ duration: 1000, easing: 'ease-in-out', once: true });
   }, []);

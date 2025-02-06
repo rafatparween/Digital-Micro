@@ -23,13 +23,7 @@ export default function Home() {
     <>
     <div className="w-full md:items-center md:justify-center bg-gradient-to-r from-[#2558a2] via-[#1e8cd8] to-[#00aaff] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       {/* Navbar */}
-      <Navbar
-        scrollToWebsiteDesign={() => scrollToSection(websiteDesignRef)}
-        scrollToGraphicDesign={() => scrollToSection(graphicDesignRef)}
-        scrollToShopifyStores={() => scrollToSection(shopifyStoresRef)}
-        scrollToBrands={() => scrollToSection(brandsRef)}
-        scrollToServices={() => scrollToSection(servicesRef)}
-      />
+      
 
       {/* Golden Animated Background */}
       
@@ -56,7 +50,7 @@ export default function Home() {
       </div>
     </div>
     <ContentSection/>
-    <Footer/>
+    
     
     
 
