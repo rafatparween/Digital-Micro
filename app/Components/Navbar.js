@@ -21,9 +21,9 @@ const Navbar = () => {
             focus:ring-offset-slate-50"
       >
         <div>
-          <div className="text-[24px] hover:text-gray-700">
+        <Link href="/" className="hover:text-gray-700 text-[26px]">
             Micro-Sonic
-          </div>
+          </Link>
         </div>
 
         {/* Desktop Menu */}
@@ -37,11 +37,14 @@ const Navbar = () => {
           <Link href="/contact" className="hover:text-gray-700">
             Contact
           </Link>
+          <Link href="/blogs" className="hover:text-gray-700">
+            Blogs
+          </Link>
+          <Link href="/signup" className="hover:text-gray-700">
+            Signup
+          </Link>
           <Link href="/login" className="hover:text-gray-700">
             Login
-          </Link>
-          <Link href="/pricing" className="hover:text-gray-700">
-            Signup
           </Link>
         </div>
 
