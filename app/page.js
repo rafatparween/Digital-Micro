@@ -42,8 +42,7 @@ export default function Home() {
           Create, grow, and <br /> scale your business
         </div>
         <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto px-4">
-          Custom tailored solutions for your business. We are a team of
-          creatives who are excited to help you grow your business.
+        Micro-Sonic powers your brand with cutting-edge digital marketing strategies. From SEO to social media, we deliver results that elevate your business
         </p>
 
         <Link

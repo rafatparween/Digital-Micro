@@ -1,26 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
 import { AlignJustify, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Navbar = ({
-  scrollToWebsiteDesign,
-  scrollToGraphicDesign,
-  scrollToShopifyStores,
-  scrollToBrands,
-  scrollToServices,
-}) => {
+const Navbar = () => {
   const [isDropDownVisible, setIsDropDownVisible] = useState(false);
 
   const toggleDropDown = () => {
     setIsDropDownVisible(!isDropDownVisible);
-  };
-
-  const closeDropDown = () => {
-    setIsDropDownVisible(false);
   };
 
   return (
@@ -32,49 +21,35 @@ const Navbar = ({
             focus:ring-offset-slate-50"
       >
         <div>
-          <Link className="cursor-pointer" href="/">
-            <Image
-              priority
-              src="/logo/logo.svg"
-              alt="Logo"
-              width={100}
-              height={100}
-              className="w-10 h-10 md:w-14 md:h-14"
-            />
-          </Link>
+          <div className="text-[24px] hover:text-gray-700">
+            Micro-Sonic
+          </div>
         </div>
 
         {/* Desktop Menu */}
-        <div
-          className="cursor-pointer hidden md:flex space-x-10 items-center 
-             text-black text-center"
-        >
-          <div onClick={scrollToWebsiteDesign} className="hover:text-gray-700">
-            Website Design
-          </div>
-          <div onClick={scrollToGraphicDesign} className="hover:text-gray-700">
-            Graphic Design
-          </div>
-          <div onClick={scrollToShopifyStores} className="hover:text-gray-700">
-            Shopify Stores
-          </div>
-          <div onClick={scrollToBrands} className="hover:text-gray-700">
-            Brands
-          </div>
+        <div className="cursor-pointer hidden md:flex space-x-10 items-center text-black text-center">
+          <Link href="/about" className="hover:text-gray-700">
+            About
+          </Link>
+          <Link href="/Services" className="hover:text-gray-700">
+            Services
+          </Link>
+          <Link href="/contact" className="hover:text-gray-700">
+            Contact
+          </Link>
+          <Link href="/login" className="hover:text-gray-700">
+            Login
+          </Link>
           <Link href="/pricing" className="hover:text-gray-700">
-            Pricing
+            Signup
           </Link>
         </div>
 
         {/* Mobile Menu */}
         <div className="flex md:hidden">
           {isDropDownVisible ? (
-            <div
-              onClick={toggleDropDown}
-              className="w-8 h-8 text-black cursor-pointer"
-            >
+            <div onClick={toggleDropDown} className="w-8 h-8 text-black cursor-pointer">
               <X />
-            
             </div>
           ) : (
             <AlignJustify
@@ -87,9 +62,8 @@ const Navbar = ({
         {/* Contact Button */}
         <div className="hidden md:flex">
           <Link
-            href="/contact"
-            className="
-            inline-flex h-12 items-center justify-center 
+            href="/"
+            className="inline-flex h-12 items-center justify-center 
             rounded-md border border-slate-800 bg-white text-black px-6 font-medium transition-colors
              focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2
             focus:ring-offset-slate-50"
