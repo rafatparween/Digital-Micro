@@ -4,6 +4,9 @@ import React, { useRef } from "react";
 import Link from "next/link";
 import { GlowEffect } from "./Components/GlowEffect";
 import Navbar from "./Components/Navbar";
+import ContentSection from "./Components/ContentSection";
+import Footer from "./Components/Footer";
+
 
 export default function Home() {
   const websiteDesignRef = useRef(null);
@@ -17,6 +20,7 @@ export default function Home() {
   };
 
   return (
+    <>
     <div className="w-full md:items-center md:justify-center bg-gradient-to-r from-[#2558a2] via-[#1e8cd8] to-[#00aaff] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       {/* Navbar */}
       <Navbar
@@ -52,5 +56,11 @@ export default function Home() {
         <div className="w-full pt-20"></div>
       </div>
     </div>
+    <ContentSection/>
+    <Footer/>
+    
+    
+
+    </>
   );
 }

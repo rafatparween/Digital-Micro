@@ -9,6 +9,12 @@ export default {
     extend: {
       theme: {
         extend: {
+          fontFamily:{
+            "bootFont": ["bootFont"]
+          },
+          screens:{
+            "xs": "425px",
+          },
           animation: {
             'gradient-wave': 'gradientWave 3s ease-in-out infinite',
           },
