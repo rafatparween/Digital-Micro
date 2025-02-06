@@ -79,8 +79,18 @@ export default function Footer() {
       </div>
       
       <div className="text-center text-gray-400 text-sm mt-6">
-        &copy; 2015 - 2025 Micro-Sonics. | Terms of Service | Privacy Policy | CA Notice at Collection | Cookie Settings | Accessibility
-      </div>
+  &copy; 2015 - 2025 Micro-Sonics. | 
+  <a href="/" className="hover:underline"> About </a> | 
+  <a href="/Services" className="hover:underline"> Services </a>|
+  <a href="/contact" className="hover:underline"> Contact </a>|
+  <a href="/term" className="hover:underline"> Terms of Service </a> | 
+  <a href="/privacy" className="hover:underline"> Privacy  </a> | 
+  <a href="/policy" className="hover:underline"> Policy </a> | 
+  <a href="/disclaimer" className="hover:underline"> Disclaimer </a> | 
+  
+</div>
+
     </footer>
   );
 }
+
