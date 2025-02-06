@@ -1,13 +1,13 @@
 export default function Privacy() {
     return (
-      <div className="container mx-auto px-4 py-16  bg-gradient-to-br from-purple-900 via-blue-900 to-gray-900 text-white">
-        <h2 className="text-3xl font-bold text-white mb-8 text-center 2xl:mt-[-5px]">Privacy Policy</h2>
+      <div className="container mx-auto px-4 py-16  bg-gradient-to-r from-[#2558a2] via-[#1e8cd8] to-[#00aaff] antialiased bg-grid-white/[0.02] text-white">
+        <h2 className="text-3xl font-bold text-white mb-8 text-center 2xl:mt-[-5px]">Privacy </h2>
         <div className="space-y-8 text-white">
           
           <section>
             <h3 className="text-2xl font-semibold text-white mb-4">Introduction</h3>
             <p>
-              Welcome to Micro Sonic Work. We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your data when you use our services or visit our website.
+              Welcome to Micro Sonic Work. We value your privacy and are committed to protecting your personal information. This Privacy  outlines how we collect, use, and safeguard your data when you use our services or visit our website.
             </p>
           </section>
           

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Disclaimer() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-gray-900 overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-r from-[#2558a2] via-[#1e8cd8] to-[#00aaff] antialiased bg-grid-white/[0.02] overflow-hidden">
       <div className="absolute inset-0 flex flex-wrap items-center justify-center">
         {[...Array(50)].map((_, index) => (
           <div
@@ -18,11 +18,11 @@ export default function Disclaimer() {
         ))}
       </div>
       <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md mt-20 z-10 relative 2xl:mt-[221px]">
-        <h1 className="mb-6 text-[32px] font-bold text-purple-500 cursor-pointer">Disclaimer</h1>
+        <h1 className="mb-6 text-[32px] font-bold text-[#2558a2] cursor-pointer">Disclaimer</h1>
         <p className="text-gray-700 mb-6">
           If you require any more information or have any questions about our site’s disclaimer, please feel free to contact us by email at <a href="mailto:support@micro-sonic.com" className="text-blue-600">support@micro-sonic.com</a>.
         </p>
-        <h2 className="text-2xl font-bold mb-4 text-[32px] font-bold text-purple-500 cursor-pointer">Disclaimer for Micro-Sonic</h2>
+        <h2 className="text-2xl font-bold mb-4 text-[32px] font-bold text-[#2558a2] cursor-pointer">Disclaimer for Micro-Sonic</h2>
         <p className="text-gray-700 mb-6">
           The information provided by Micro Sonic Work on our website and through our services is for general informational purposes only. While we strive to keep the information accurate and up to date, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to our website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
         </p>
