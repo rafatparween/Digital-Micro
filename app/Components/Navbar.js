@@ -21,9 +21,9 @@ const Navbar = () => {
             focus:ring-offset-slate-50"
       >
         <div>
-        <Link href="/" className="hover:text-gray-700 text-[26px]">
+        {/* <Link href="/" className="hover:text-gray-700 text-[26px]">
             Micro-Sonic
-          </Link>
+          </Link> */}
         </div>
 
         {/* Desktop Menu */}
