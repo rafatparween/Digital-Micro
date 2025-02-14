@@ -13,7 +13,7 @@ export default function Header() {
             <Link href="../Services/Pages" className="">Support Home</Link>
             <Link href="../Services/Pages" className="">Ink Cartridges Issue</Link>
             <Link href="../Services/Pages" className="">Diagnostics</Link>
-            <Link href="../Services/Pages/Pages" className="">Business Support</Link>
+            <Link href="../Services/Pages" className="">Business Support</Link>
         </div>
         </div>
       </nav>
