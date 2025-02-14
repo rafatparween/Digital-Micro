@@ -20,7 +20,6 @@ export default function Header() {
     <div className="my-4 w-full mt-[3px]"></div>
     </div>
   );
-};
-
+}
 
 
