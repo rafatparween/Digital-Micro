@@ -22,8 +22,8 @@ export default function ContentSection() {
 
   return (
     <section className="py-16 bg-white text-center">
-      <h2 className="text-3xl font-bold text-gray-800 mb-2">Services</h2>
-      <p className="text-gray-600 mb-8">Boost your online presence with our expert digital marketing services. From social media managements</p>
+      <h2 className="text-3xl font-bold text-gray-800 mb-2">Assistance</h2>
+      <p className="text-gray-600 mb-8">Boost your online presence with our expert digital marketing assistance. From social media managements</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto px-4">
         {images.map((src, index) => (
           <div

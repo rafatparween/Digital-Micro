@@ -21,6 +21,7 @@ export default function Home() {
 
   return (
     <>
+    <Navbar/>
     <div className="w-full md:items-center md:justify-center bg-gradient-to-r from-[#2558a2] via-[#1e8cd8] to-[#00aaff] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       {/* Navbar */}
       
@@ -50,6 +51,7 @@ export default function Home() {
       </div>
     </div>
     <ContentSection/>
+    <Footer/>
     
     
     
